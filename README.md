@@ -1,6 +1,6 @@
 # Lab 4
 
-With this lab we shift our focus from developing a machine learning model to creating a service that uses that model. There are two significant pieces needed: we'll define a specification file for the creation of the web api and a framework (tooling) that will help set up the handling of the requests and responses between the server and client. The latter framework has two modules: Flask and connexion.  Flask helps with instantiaation of the web api.  Connexion handles http requests. Why these two? Simply, Flask is light weight and connexion conforms to OAS. What is OAS? Think of it as a set of clearly defined rules for the creation of a RESTful web api.  We illustrate through use of a toy python service that gets cpuinfo.
+With this lab we shift our focus from developing a machine learning model to creating a service that uses that model. There are two significant pieces needed: we'll define a specification file for the creation of the web api and a framework (tooling) that will help set up the handling of the requests and responses between the server and client. The latter framework has two modules: Flask and connexion.  Flask helps with instantiation of the web api.  Connexion handles http requests. Why these two? Simply, Flask is light weight and connexion conforms to OAS. What is OAS? Think of it as a set of clearly defined rules for the creation of a RESTful web api.  We illustrate through use of a toy python service that gets cpuinfo.
 
 # Goal
 
