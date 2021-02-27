@@ -1,7 +1,24 @@
-# learning OAS specification with cpu and os example
-This weeks lab you will be learning how to propelry use Open API specification or (OAS) from here on out. Following this specification will allow us to create a directory hierarchy of python files or modules that we can reference within a yaml file. This makes our applications super clean and readily transferable. 
+# Lab 4
 
-# Read about OAS 
+We will shift our focus from machine learning to the implementation of the servcie we created. There are two significnat pieces that we will use for the creation of the web api and the handling of the requests and responses between the server and client. For the creation of the web api we will use Flask and to handle our http requests we will use the module connexion. Why use these two? Simply, Flask is light weight and connexion conforms to OAS. What is OAS ? Think ok it as a set of clearly defined rules for the creation of a RESTful web api. 
+
+# Goal
+
+1) Create a github account so we can clone this example. 
+
+2) Use the Makefile to run the service. (Windows users may just have to use the docker commands in the makefile if make is not installed)
+
+3) Identify within the .yaml file where the url is defined and
+
+4) where the path to the python code is defined. 
+
+5) Begin to understand how Flask, connexion and the .yaml file are interacting to create our service. 
+
+6) add the get_os path to the .yaml file, it is located in the cpu_2020.py file. 
+
+# Resources for you
+
+## Read about OAS 
 
 You are required to read about writing OAS definitions and the required reading can be found here:
 
@@ -11,15 +28,12 @@ You are required to read about writing OAS definitions and the required reading 
 
 This documentation walks you through the basics of your YAML file, we will be using YAML exculsively in this class, however if you want to use JSON for your project feel free. 
 
-# connexion
+## connexion
 
 To conform to OAS standards we will be using connexion to handle the HTTP requests. The documentation is found here:
 
 [connexion docs](https://connexion.readthedocs.io/en/latest/)
 
-# goal 
-
-The outcome of this lab is for you to begin to understand how to write your own yaml files. I have provided for you a nice start. 
 
 # start
 
@@ -32,7 +46,3 @@ Look in os_pack there are two files. Looks at them. Redfine the operationid in t
 # what you need to do for the lab activity
 
 create a new endpoint that tells the user what OS they are running by defining a path and operationid in the yaml file.
-
-# homework 
-
-I will post on piazza but the links in this document must be read. 
