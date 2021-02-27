@@ -43,6 +43,8 @@ now remember in order to stop the service use `make docker-stop` in a seperate t
 
 Look in os_pack there are two files. Looks at them. Redfine the operationid in the yaml file to point to the cpu_2020.py file. I have already created the def for the OS portion so the lab activity will be easy. 
 
+Once the service is started and running you go here to test it out: [](localhost:8080/engr-222/cpu)
+
 # what you need to do for the lab activity
 
 create a new endpoint that tells the user what OS they are running by defining a path and operationid in the yaml file.
