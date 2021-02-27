@@ -35,7 +35,7 @@ To conform to OAS standards we will be using connexion to handle the HTTP reques
 [connexion docs](https://connexion.readthedocs.io/en/latest/)
 
 
-# start
+# Start
 
 `make docker-all`
 
