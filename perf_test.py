@@ -2,7 +2,7 @@ import requests         # for sending HTTP requests
 import time             # for timing
 
 # service hosted ip
-HOST_IP = "149.165.172.130"
+HOST_IP = "vm-148-1.ise.luddy.indiana.edu"
 
 # get the total number of requests
 n_requests = int(input("Number of requests: "))
